@@ -1,5 +1,12 @@
+import Game from "./Game";
+import Data from "./Data/Countries";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Game data={Data} />
+    </>
+  );
 };
 
 export default App;
